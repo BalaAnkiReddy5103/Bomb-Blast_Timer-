@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(
+        circle at center,
+        #252525,
+        #101010,
+        #050505
+    );
+}
+.card{
+    height: 430px;
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+
+    background: linear-gradient(
+        145deg,
+        #242424,
+        #111111
+    );
+
+    border: 1px solid #6b2525;
+    border-radius: 20px;
+    
+}
+h1{
+  width: 100%;
+    text-align: center;
+    margin-top: 22px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #ffb347;
+}
+#img{
+    height: 310px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
